@@ -105,10 +105,12 @@
             font-size: 12px;
             text-align: center;
         }
-        @media screen and (max-width: 640px) {
+        @media screen and (max-width: 1024px) {
             .email-otp{
-                width: 90%;
+                width: 85%;
             }
+        }
+        @media screen and (max-width: 640px) {
             .email-otp h1{
                 font-size: 14px;
             }
@@ -116,7 +118,8 @@
                 font-size: 18px;
             }
             .email-otp h2{
-                font-size: 40px;
+                font-size: 24px;
+
                 width: 100%;
             }
             .click{
@@ -129,11 +132,6 @@
                 flex-direction: column;
             }
         }
-        @media screen and (max-width: 1024px) {
-            .email-otp{
-                width: 70%;
-            }
-        }
     </style>
 </head>
 <body>
@@ -142,7 +140,7 @@
             <h1><span style='font-weight: 700'>Subject: </span>Verification pin</h1>
             <p class='hi'>Hi Joel, </p>
             <h2>Verification Pin</h2>
-            <p class='click'>Here is your verification pin: <span style="font-size: 20px;color: #ADD565;">202345</span></p>
+            <p class='click'>Here is your verification pin: <span style="font-size: 20px;">202345</span></p>
             <p>Please verify your email by entering this pin on the verification page</p>
         </div>
         
